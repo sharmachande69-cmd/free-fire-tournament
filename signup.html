@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Signup</title>
+</head>
+<body bgcolor="black" text="white">
+
+<center>
+
+<h1>📝 Create Account</h1>
+
+<input type="text" placeholder="Username">
+
+<br><br>
+
+<input type="email" placeholder="Email">
+
+<br><br>
+
+<input type="password" placeholder="Password">
+
+<br><br>
+
+<button>Create Account</button>
+
+</center>
+
+</body>
+</html><script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "free-fire-tournament-fcd74.firebaseapp.com",
+  projectId: "free-fire-tournament-fcd74",
+  storageBucket: "free-fire-tournament-fcd74.firebasestorage.app",
+  messagingSenderId: "462234488312",
+  appId: "YOUR_APP_ID"
+};
+
+const app = initializeApp(firebaseConfig);
+
+console.log("Firebase Connected!");
+</script>
